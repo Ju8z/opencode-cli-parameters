@@ -2,6 +2,8 @@
 
 This document maps out **absolutely every parameter, option, and sub-option** available in the `opencode.json` schema used by OpenCode, directly extracted and flattened from the canonical configuration schema.
 
+Note: These parameters correspond to version v1.17.3, available at: https://github.com/anomalyco/opencode/releases/tag/v1.17.3
+
 | Parameter (JSON Path) | Type | Description / Usage |
 | :--- | :--- | :--- |
 | `shell` | `string` | Default shell to use for terminal and bash tool |
