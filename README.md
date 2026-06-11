@@ -1,8 +1,10 @@
 # OpenCode CLI Configuration Parameters (opencode.json)
 
-This document maps out **absolutely every parameter, option, and sub-option** available in the `opencode.json` schema used by OpenCode, directly extracted and flattened from the canonical configuration schema.
+OpenCode is an advanced, open-source AI coding agent designed to operate autonomously within your terminal. It assists developers by analyzing codebases, executing terminal commands, managing files, and interfacing directly with Language Server Protocols (LSPs) to automate complex engineering tasks.
 
-Note: These parameters correspond to version v1.17.3, available at: https://github.com/anomalyco/opencode/releases/tag/v1.17.3
+The opencode.json file serves as the primary configuration engine for the OpenCode CLI. It allows developers to completely customize the agent's behavior—from defining custom LLM providers, model limits, and token budgets, to establishing granular file-system permissions, setting up Model Context Protocol (MCP) integrations, and crafting bespoke subagent personas.
+
+Note: The configuration parameters detailed in this document are applicable to OpenCode release v1.17.3 : https://github.com/anomalyco/opencode/releases/tag/v1.17.3
 
 | Parameter (JSON Path) | Type | Description / Usage |
 | :--- | :--- | :--- |
